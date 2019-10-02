@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai4</title>
+</head>
+	<style type="text/css">
+		#box{width: 300px;margin:0 auto;color: #fff;position: relative;}
+		#box h1{font-size: 20px;text-align: center;background-color: #dd4800;margin: 0;font-weight: bold;}
+		#box table{width: 100%; background-color:#f88dd7;
+			height: 140px;}
+			#box table tr{height: 25px;}
+	</style>
+	<script type="text/javascript">
+		function checkTienDien(){
+			var a=document.getElementById("diencu").value;
+			var b=document.getElementById("dienmoi").value;
+			var c=document.getElementById("gia").value;
+			var thanhtien=(b-a)*c;
+			document.getElementById("thanhtien").value=thanhtien;
+		}
+	</script>
+<body>
+	<div id="box">
+		<h1>DIỆN TÍCH HÌNH CHỮ NHẬT</h1>
+		<table>
+			<tr>
+				<td>chủ hộ:</td>
+				<td><input type="text" id="chuho" ></td>
+			</tr>
+			<tr>
+				<td>điện cũ</td>
+				<td><input type="number" id="diencu"></td>
+				<td>(kw)</td>
+			</tr>
+			<tr>
+				<td>điện mới</td>
+				<td><input type="number" id="dienmoi"></td>
+				<td>(kw)</td>
+			</tr>
+			<tr>
+				<td>giá</td>
+				<td><input type="number" id="gia"></td>
+				<td>(vnd)</td>
+			</tr>
+				<td>thành tiền</td>
+				<td><input type="text" id="thanhtien"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="Tính" onclick="checkTienDien();"style="position: absolute; left: 130px;bottom:0px;"></td>
+			</tr>
+
+		</table>
+	</div>
+			
+</body>
+</html>

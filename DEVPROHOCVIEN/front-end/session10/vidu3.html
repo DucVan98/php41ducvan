@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery</title>
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// khi id=btn click
+			$("#btn").click(function(){
+				// lấy giá trị của thê html có class=so1
+			var s1= $(".so1").val();
+			//  lấy giá trị của thẻ html có class=s2
+			var s2= $(".so2").val();
+			// ép kiểu
+			s1=parseInt(s1);
+			s2=parseInt(s2);
+			var ketqua=s1+s2;
+			//  tác động vào thẻ form có class=ketqua -> xuất ra giá trị
+			$(".ketqua").val(ketqua);
+			});
+		});
+	</script>
+	<fieldset style="width: 300px;margin: auto;">
+	<table>
+		<tr>
+			<td>so1</td>
+			<td><input type="number"class="so1"></td>
+		</tr>
+		<tr>
+			<td>so2</td>
+			<td><input type="number"class="so2"></td>
+		</tr>
+		<tr>
+			<td>so3</td>
+			<td><input type="text"class="ketqua"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="button" id="btn" value="thực hiện"></td>
+		</tr>
+	</table>
+	</fieldset>
+</body>
+</html>

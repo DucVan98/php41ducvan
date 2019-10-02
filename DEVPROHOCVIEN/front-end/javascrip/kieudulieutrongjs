@@ -1,0 +1,9 @@
+kiểu dữ liệu thông dụng: 
+	-string: (chuỗi) : đặt dấu ngoặc kép hoặc ngoặc đơn
+	-number=số nguyên, âm;
+	-boolean: true,flase;
+	-array: kiểu dữ liệu mảng
+	-oject: kiểu đối tượng
+-tất cả các biến trong js đều thuộc kiểu đối tượng;
+	-undefined: giá trị của biến khi không được gán;
+	-null: xóa giá trị được lưu trong biến : x= null;

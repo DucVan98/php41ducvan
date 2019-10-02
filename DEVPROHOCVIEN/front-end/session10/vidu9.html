@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#slideUp").click(function(){
+				$("#images").slideUp(2000);
+			});
+			$("#slideDown").click(function(){
+				$("#images").slideDown(2000);
+			});
+			$("#slideToggle").click(function(){
+				$("#images").slideToggle(2000);
+			});
+		});
+	</script>
+	<fieldset style="width: 500px;margin: auto;">
+		<legend>hide show toggle</legend>
+		<div style="margin-bottom: 15px;">
+			<input type="button" id="slideUp" value="slideUp">
+			<input type="button" id="slideDown" value="slideDown">
+			<input type="button" id="slideToggle" value="slideToggle">
+
+		</div>
+		<img src="images/a2.jpg" id="images">
+	</fieldset>
+</body>
+</html>

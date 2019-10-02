@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>loading</title>
+</head>
+<body>
+	<style type="text/css">
+		#loading{background-color: green;width: 0px;height: 30px;}
+	</style>
+	<script type="text/javascript">
+		var width = 0;
+		var id = setInterval(function(){
+			width ++;
+			// sét thuộc tính style của thẻ html có thuộc tính id=loading
+			document.getElementById("loading").setAttribute("style","width: " +width+"px");
+			if(width == 500){
+				clearInterval(id);
+			}
+		},50);
+	</script>
+	<fieldset style="width: 500px; margin: 50px auto;">
+		<legend>Loading</legend>
+		<h1 id="loading"></h1>
+	</fieldset>
+</body>
+</html>

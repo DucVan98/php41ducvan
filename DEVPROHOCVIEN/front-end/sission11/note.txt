@@ -1,0 +1,69 @@
+- Responsive chi su phu hop cua website voi cac co man hinh
+    khac nhau
+- De thuc hien Responsive, trong the head can khai bao the:
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- Mot so khai niem:
+    - @media all -> chi tat ca cac thiet bi
+    - @media screen -> cac thiet bi la man hinh
+    - max-width -> do rong toi da
+    - min-width -> do rong toi thieu
+    - max-height -> do cao toi da
+    - min-height -> do cao toi thieu
+- Responsive thuc chat la viec viet lai css ung voi cac do rong khac nhau
+    cua man hinh
+- Mot so cach thuc hien Responsive
+    - Su dung the html5 va css3
+    - Dung doan ma cua ngon ngu lap trinh de detect man hinh
+    truy cap vao website -> ung voi kieu man hinh nao thi screen
+    cho truy cap vao website do
+        VD: neu ipad, iphone ... truy cap vao website
+        http://dantri.com.vn thi se tu dong di chuyen den
+        http://m.dantri.com.vn
+        -> co nghia la co 2 website ton tai song song, 1 cho web va 1 cho mobile
+- Bootstrap la mot cc framework, version hien tai la 4
+- Bootstrap se bao gom cac class de the hien css
+- Bootstrap chia man hinh thanh dang khung luoi bao gom 12 cot 
+- Su dung Bootstrap bang cac load thu vien .css cua no -> Bootstrap.min.css
+- Cac class Bootstrap duoc dat trong 2
+    class la: container va container-fluid
+    - container -> fix do ring
+    -> container-fluid -> full man hinh
+- Khung luoi bao gom cac hang va cac cot
+    ( 1<= cot <= 12)
+        - class=row -> hang
+        - class=col-lg-socot -> cot cho man hinh large
+        - class=col-md-socot -> cot cho man hinh medium
+        - class=col-sm-socot -> cot cho man hinh small
+        - class=col-xs-socot -> cot cho man hinh x-small
+        - class=col-socot -> cho tat ca cac man hinh
+- class=card -> tao khung
+    - class=card-header -> tieu de
+    - class=card-body -> noi dung
+    - class=card-footer -> chan card
+- class=bg-primary -> mau nen xanh
+- class=bg-danger -> mau nen do nhat
+- class=bg-infor -> mau nen xanh nhat
+- class=bg-success
+- class=boder-primary -> duong vien
+- class=boder-danger -> duong vien
+- class=boder-infor -> duong vien
+- class=boder-success -> duong vien
+- class=text-white -> mau trang
+- class=text-dark -> mau den
+- class=text-primary
+- class=text-danger ...
+- class=table -> dang bang
+    - table-bordered -> co duong vien bao qunah
+    - table-hover -> di chuot thay doi mau nen
+    - tbale-striped -> bo padding
+- class=btn -> nut button
+    - btn-primary
+    - btn-danger
+    - btn-success
+    - btn-infor
+    - Chu y la bat cu the html nao cung co the bien 
+        thanh but khi dat cac class nay
+- class=pagination -> phan trang
+    - page-item -> cho the li 
+    - page-link -> cho the a
+    

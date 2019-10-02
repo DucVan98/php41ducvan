@@ -1,0 +1,7 @@
+RewriteEngine On
+#trang-chu
+RewriteRule ^home$ index.php
+#danh muc tin tuc
+RewriteRule ^news/category/(.*)/(.*)$ index.php?controller=NewsCategory&id=$1
+#chi tiet tin tuc
+RewriteRule ^news/detail/(.*)/(.*)$ index.php?controller=NewsDetail&id=$1

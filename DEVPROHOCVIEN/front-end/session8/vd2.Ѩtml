@@ -1,0 +1,7 @@
+<script type="text/javascript">
+	//tao bien kieu string
+	var str = "";
+	str = prompt("Nhap noi dung tu ban phim");
+	document.write("<h1>"+str+"<h1>");
+	//<=><h1>noi dung</h1>
+</script>

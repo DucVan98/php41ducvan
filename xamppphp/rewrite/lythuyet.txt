@@ -1,0 +1,15 @@
+file .htaccess su dung de quan ly website , có thể thực hiện
+	-rewrite url
+-Mot so cach lenh trong file .htaccess
+	-truyen bien urrl
+		rewriteRule ^(.*)$/(.*) duowngdanthuc.php?bien1=$1&bien2=$2
+			-TInh tu trai sang phair
+			- (.*) dau tien se la $1
+			- (.*) tiep theo se la $2
+-xét đường dẫn : http://localhost/rewrite/a/b/c/image/1.jpg
+	-Đường dẫn root: http://localhost/php41/rewrite/
+	-Các file (img,js,css..) se load theo cấu trúc : root/folder thuc/tenfile
+		http://localhost/rewrite/image/1.jpg
+	- khi rewwrite url thi trinh duyet hieu nham duong dan ao chinh la duong dan root
+	-d e trinh duyet hieu duoc duong dan root tren toan trang, trong html co the 
+	<base href= "duong dan root/" -> co nghia la trinh duyet khong lay duong dan tu url lam duong dan root, ma se lay dường dẫn trong thể base để làm đường dẫn root.

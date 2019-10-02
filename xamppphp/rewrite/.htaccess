@@ -1,0 +1,10 @@
+#bat de do rewrite url
+RewriteEngine On
+#url: /php41 - > vd1.php
+RewriteRule ^php41$ vd1.php
+#url: /hello/php41.html -> vd1.php
+
+#url: truyenbien1/5/hello -> vd2.php?bien1=5&bien2=hello
+RewriteRule ^truyenbien1/(.*)/(.*)$ vd2.php?bien1=$1&bien2=$2
+#url: a/b/c -> vd3.php
+RewriteRule ^a/b/c$ vd3.php

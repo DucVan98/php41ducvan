@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1
+        {
+            padding: 0px;
+            margin: 0px;
+        }    
+        .header, .footer
+        {
+            background-color: red;
+            height: 100px;
+            clear: both;
+        }
+        .left, .right
+        {
+            width: 20%;
+            height: 400px;
+            background-color: purple;
+            float: left;
+        }
+        .main
+        {
+            width: 60%;
+            height: 400px;
+            background-color: green;
+            float: left;
+        }
+        /* detect co man hinh la 1000 */
+        @media all and (max-width: 1000px)
+        {
+            /* an khoi right */
+            .right
+            {
+                display: none;
+            }
+            /* dat lai do rong cua khoi main*/
+            .main
+            {
+                width: 80%;
+            }
+        }
+        /* detect co man hinh la 800 */
+        @media all and (max-width: 800px)
+        {
+            /* dat lai do rong tat cac cac khoi */
+            .header, .left, .main, .right, .footer
+            {
+                width: 100%;
+            }
+            /* hien thi khoi right */
+            .right
+            {
+                display: block;
+            }
+        }
+    </style>
+    <div class="wrapper">
+        <div class="header"><h1>Header</h1></div>
+        <div class="left"><h1>Left</h1></div>
+        <div class="main"><h1>Main</h1></div>
+        <div class="right"><h1>Right</h1></div>
+        <div class="footer"><h1>Footer</h1></div>
+    </div>
+</body>
+</html>

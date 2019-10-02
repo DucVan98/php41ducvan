@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//  khi thẻ html có id=drd có sự kiện change
+			 $("#drd").change(function(){
+			 	// lấy giá tị của the html có id=drd
+			 	var img = $("#drd").val();
+			 	// tác động vào thẻ html có id=images
+			 	$("#images").fadeOut(function(){
+			 		// sét tác động vào thuộc tính src của thẻ html có thuocj tính id=images
+			 		$("#images").attr("src",img);
+			 		// sử dụng hàm fadeIn
+			 		$("#images").fadeIn();
+			 	});
+			 });
+		});
+	</script>
+	<fieldset style="width: 500px;margin: auto;">
+		<legend>change images</legend>
+		<div style="margin-bottom: 10px;">
+			<select style="width: 100%;"id="drd">
+				<option value="images/a1.jpg">a1</option>
+				<option value="images/a2.jpg">a2</option>
+				<option value="images/a3.jpg">a3</option>
+				<option value="images/a4.jpg">a4</option>
+				<option value="images/a5.jpg">a5</option>
+			</select>
+			<div>
+				<img src="images/a1.jpg" style="width: 500px;" id="images" alt="">
+			</div>
+		</div>
+	</fieldset>
+</body>
+</html>

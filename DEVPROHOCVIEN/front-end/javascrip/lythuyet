@@ -1,0 +1,15 @@
+biến trong javascrip
+	-dùng để lưu trữ 1 đối tượng nào đó có thể là 1 chuỗi, mảng , con số, đối tượng, phép toán...
+	-khai báo biến trong js: var <ten biến>;
+	var x=5;
+		var text="day là khai báo text";
+		document.writeln("giá trị của biến X là: " + x);hiển thị lên màn hình người dùng xuống dòng
+		document.writeln("đoạn text được viết ra là: "+ text);
+		document.write("giá trị của biến X là: " + x);
+		document.write("<br/>đoạn text được viết ra là: "+ text);
+		console.log("giá trị của biến X là: " + x);hiển thị vào thanh console trên màn hình kiểm tra
+	-đặt tên biến quy tắc: 
+		-bắt đầu bằng kí tự hoặc dấu gạch dưới(_)
+		-không có khoảng trắng
+		-tên bến phân biệt chữ hoa và chữ thường
+	

@@ -1,0 +1,16 @@
+- poistion: can chinh vi tri cua the html. Se can chinh qua cac vi tri: top right bottom left
+	- absolute: can chinh theo vi tri
+	- relative: lam diem tua
+	- fixed: co dinh vi tri cua the html
+- display:
+	- none -> an the html
+	- block -> hien thi the html theo khoi, tran ra ben ngoai
+	- inline -> bo lai vao ben trong
+	- inline-block -> ket hop cua inline va block
+- z-index: sap xep thu tu the html (the nao nam tren, the nao nam duoi)
+- mau sac:
+	- theo ten tieng anh
+	- rgb
+	- rgb(0,0,0), rgb(255,255,255)
+	- rgba(0,0,0,1) -> a la do trong suot, chay tu 0 den 1
+- opacity: 0-1 -> do trong suot cua the html	

@@ -1,0 +1,458 @@
+/* #CA6971 */
+.main-color {
+    background-color: #CA6971 !important;
+}
+
+.main-text-color {
+    color: #CA6971;
+}
+
+.content-color {
+    color: #CA6971;
+}
+
+.header-color {
+    color: #CA6971;
+}
+
+.content-font:hover a {
+    color: #CA6971 !important;
+}
+
+.rating .form-group input.star-1:checked ~ label.star:before {
+    color: #CA6971;
+}
+
+.block-header .block-header-search .form-group .btn-search:hover svg path {
+    stroke: #CA6971;
+}
+
+.block-header .block-header-search .form-group .form-control:focus {
+    border-color: #CA6971;
+}
+
+.block-header .block-header-action .action-heart a:hover svg path {
+    stroke: #CA6971;
+}
+
+.block-header .block-header-action .action-cart a:hover svg path {
+    stroke: #CA6971;
+}
+
+.block-header .block-header-action .action-user .dropdown .dropdown-toggle:hover .icon-user path {
+    fill: #CA6971;
+}
+
+.block-header .block-header-action .action-user .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #CA6971;
+}
+
+.block-header .block-header-action .action-user .dropdown .dropdown-menu .dropdown-item:hover .icon1 path {
+    fill: #CA6971;
+}
+
+.block-header .block-header-action .action-user .dropdown .dropdown-menu .dropdown-item:hover .icon2 path {
+    stroke: #CA6971;
+}
+
+.block-header-menu .main-menu ul li a:hover {
+    color: #CA6971;
+}
+
+.block-header-menu .main-menu ul li .sub-menu {
+    border-top: solid 2px #CA6971;
+}
+
+.block-header-menu .main-menu ul li .sub-menu li ul {
+    border-top: solid 2px #CA6971;
+}
+
+.block-header-menu .main-menu ul li .sub-menu li ul li:hover a {
+    color: #CA6971 !important;
+}
+
+.block-header-menu .main-menu ul li .sub-menu li:hover svg path {
+    fill: #CA6971 !important;
+}
+
+.block-header-menu .main-menu ul li .sub-menu li:hover a {
+    color: #CA6971;
+}
+
+.block-header-menu .main-menu ul .active a {
+    color: #CA6971;
+}
+
+.block-header-menu .block-header-search .form-group .btn-search:hover svg path {
+    stroke: #CA6971;
+}
+
+.block-header-menu .block-header-search .form-group .form-control:focus {
+    border-color: #CA6971;
+}
+
+.block-header-menu .block-header-action .action-search a:hover svg path {
+    stroke: #CA6971;
+}
+
+.block-header-menu .block-header-action .action-heart a:hover svg path {
+    stroke: #CA6971;
+}
+
+.block-header-menu .block-header-action .action-cart a:hover svg path {
+    stroke: #CA6971;
+}
+
+.block-header-menu .block-header-action .action-user .dropdown .dropdown-toggle:hover .icon-user path {
+    fill: #CA6971;
+}
+
+.block-header-menu .block-header-action .action-user .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #CA6971;
+}
+
+.block-header-menu .block-header-action .action-user .dropdown .dropdown-menu .dropdown-item:hover .icon1 path {
+    fill: #CA6971;
+}
+
+.block-header-menu .block-header-action .action-user .dropdown .dropdown-menu .dropdown-item:hover .icon2 path {
+    stroke: #CA6971;
+}
+
+.product-item .thumb-product .product-like .btn-like:hover svg path {
+    stroke: #CA6971;
+    fill: #CA6971;
+}
+
+.product-item .thumb-product .product-like .active svg path {
+    stroke: #CA6971;
+    fill: #CA6971;
+}
+
+.product-item .product-content .name a:hover {
+    color: #CA6971;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.product-item .product-content .action .btn-addcart:hover {
+    background-color: #CA6971;
+}
+
+.owl-banner .owl-nav .owl-prev {
+    border-left: solid 2px #CA6971 !important;
+    border-top: solid 2px #CA6971 !important;
+}
+
+.owl-banner .owl-nav .owl-next {
+    border-left: solid 2px #CA6971 !important;
+    border-top: solid 2px #CA6971 !important;
+}
+
+.block-blog .blog-item .content .name a:hover {
+    color: #CA6971;
+}
+
+.block-blog .blog-item .content .view a:hover,
+.block-blog .blog-item .content .meta a:hover {
+    color: #CA6971;
+}
+
+.block-blog .blog-item .content .view-more a {
+    color: #CA6971;
+}
+
+.block-footer .widget-footer .contact-item a:hover {
+    color: #CA6971;
+}
+
+.block-footer .widget-footer form .form-group .btn-submit {
+    background: #CA6971;
+}
+
+.block-footer .widget-footer .social ul li a:hover svg path {
+    fill: #CA6971;
+}
+
+.block-footer .copy-right a:hover {
+    color: #CA6971;
+}
+
+.custom-selectag .select-items div:hover, .custom-selectag .same-as-selected {
+    color: #CA6971;
+}
+
+.block-account-page .block-table-cart table tbody tr td .btn-close:hover svg path,
+.block-cart-page .block-table-cart table tbody tr td .btn-close:hover svg path {
+    fill: #CA6971;
+}
+
+.block-account-page .block-table-cart table tbody tr td .cart-product-item .cart-product-info .name a:hover,
+.block-cart-page .block-table-cart table tbody tr td .cart-product-item .cart-product-info .name a:hover {
+    color: #CA6971;
+}
+
+.block-account-page .block-table-cart table tbody tr td .quantity input::focus,
+.block-cart-page .block-table-cart table tbody tr td .quantity input::focus {
+    border-color: #CA6971;
+}
+
+.block-account-page .block-cart-total .item-group strong.price,
+.block-cart-page .block-cart-total .item-group strong.price {
+    color: #CA6971;
+}
+
+.block-account-page .block-cart-total .item-group .btn-paynow,
+.block-cart-page .block-cart-total .item-group .btn-paynow {
+    background-color: #CA6971;
+    border-color: #CA6971;
+    color: #FFFFFF;
+}
+
+.block-account-page .block-user-infor .btn-setting,
+.block-cart-page .block-user-infor .btn-setting {
+    background: #CA6971;
+}
+
+.block-blog-page .block-list-blog .blog-item .type-blog {
+    color: #CA6971;
+}
+
+.block-blog-page .block-list-blog .blog-item .meta-blog .author a:hover {
+    color: #CA6971;
+}
+
+.block-blog-page .block-list-blog .blog-item .view-more {
+    background-color: #CA6971;
+}
+
+.block-blog-page .block-side-blog .side-item .list-related .related-item .content .type-blog {
+    color: #CA6971;
+}
+
+.block-blog-page .block-side-blog .side-item .list-related .related-item .content .meta-blog .author a:hover {
+    color: #CA6971;
+}
+
+.block-blog-page .block-side-blog .side-item .list-tags a:hover {
+    background-color: #CA6971;
+}
+
+.block-blog-page .block-blog-detail .article-content .type-blog {
+    color: #CA6971;
+}
+
+.block-blog-page .block-blog-detail .article-content .meta-blog .author a:hover,
+#search-box ul li a:hover
+{
+    color: #CA6971 !important;
+}
+
+.block-blog-page .block-blog-detail .social ul li a:hover svg path {
+    fill: #CA6971;
+}
+
+.block-blog-page .block-blog-detail .next-blog .next-item .content .type-blog {
+    color: #CA6971;
+}
+
+.block-blog-page .block-blog-detail .next-blog .next-item .content .meta-blog .author a:hover {
+    color: #CA6971;
+}
+
+.block-address-page .header-address .btn-add-address {
+    background: #CA6971;
+}
+
+
+.block-address-page .elm-address .user-address .user-address-item .action-address .btn-delete {
+    color: #CA6971;
+}
+
+
+.block-address-page .elm-address .user-address .form-payment .action-address .btn-delete {
+    color: #CA6971;
+}
+
+.block-pay-page .block-payment-info .wrap-box .breadcrumb .breadcrumb-item a {
+    color: #CA6971;
+}
+
+.block-pay-page .block-payment-cart .wrap-box .cart-list-product .cart-product-item .cart-product .cart-product-info .name a:hover {
+    color: #CA6971;
+    -webkit-transition: all 0.23s;
+    transition: all 0.23s;
+}
+
+.block-pay-page .block-payment-cart .wrap-box .block-cart-total .item-group strong.price {
+    color: #CA6971;
+}
+
+.block-pay-page .block-payment-cart .wrap-box .block-cart-total .item-group .btn-paynow {
+    background-color: #CA6971;
+    border-color: #CA6971;
+    color: #FFFFFF;
+}
+
+.block-404 .form-group .form-control:focus {
+    border-color: #CA6971;
+}
+
+.block-404 a:hover {
+    color: #CA6971;
+}
+
+.custom-selectag-2 .select-items div:hover, .custom-selectag-2 .same-as-selected {
+    color: #CA6971;
+}
+
+.block-succsess-page a {
+    color: #CA6971;
+}
+
+.block-contact-page .contact-group p a:hover {
+    color: #CA6971;
+}
+
+.block-contact-page .contact-group .social ul li a:hover svg path {
+    fill: #CA6971;
+}
+
+.block-contact-page .form-feedback .form-group .form-control:focus {
+    border-color: #CA6971;
+}
+
+.block-contact-page .form-feedback .btn-submit {
+    background: #CA6971;
+}
+
+.block-user-login .user-login .block-left p a {
+    color: #CA6971;
+    text-decoration: none;
+}
+
+.block-user-login .user-login .block-right .form-login .form-group .btn-submit {
+    background-color: #CA6971;
+}
+
+.block-user-login .user-login .block-right .form-login .form-group a:hover {
+    color: #CA6971;
+}
+
+.block-pages-product .product-list-filter .block-header-search .form-group .btn-search:hover svg path {
+    stroke: #CA6971;
+}
+
+.block-pages-product .product-list-filter .block-header-search .form-group .form-control:focus {
+    border-color: #CA6971;
+}
+
+.block-pages-product .product-list-filter .block-filter .filter-item ul li a:hover {
+    color: #CA6971;
+}
+
+.block-pages-product .product-list-filter .block-filter .filter-item #slider-range .ui-slider-handle {
+    border: 1px solid #CA6971;
+}
+
+.block-pages-product .product-list-filter .block-filter .filter-item #slider-range .ui-widget-header {
+    background-color: #CA6971;
+}
+
+.block-pagination .pagination li a:hover {
+    color: #CA6971;
+}
+
+.block-pages-productdetail .block-detail .price-wrap .price-new {
+    color: #CA6971;
+}
+
+.block-pages-productdetail .block-detail .block-custom-change .change-item .form-check .form-check-input:checked ~ span {
+    color: #CA6971;
+    border-color: #CA6971;
+}
+
+.block-pages-productdetail .block-detail .block-custom-change .form-action .like-check .form-check-input:checked ~ span {
+    border-color: #CA6971;
+}
+
+.block-pages-productdetail .block-detail .block-custom-change .form-action .like-check .form-check-input:checked ~ span svg path {
+    fill: #CA6971;
+    stroke: #CA6971;
+}
+
+.block-pages-productdetail .block-detail .block-custom-change .form-action .btn-addcart {
+    background: rgba(202, 105, 113, 0.1);
+    border: 1px solid #CA6971;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #CA6971;
+}
+
+.block-pages-productdetail .block-detail .block-custom-change .form-action .btn-buy {
+    background-color: #CA6971;
+    border-color: #CA6971;
+    color: white;
+}
+
+.block-pages-productdetail .block-detail .block-category-type a:hover {
+    color: #CA6971;
+    -webkit-transition: all 0.23s;
+    transition: all 0.23s;
+}
+
+.block-pages-productdetail .block-detail .social ul li a:hover svg path {
+    fill: #CA6971;
+}
+
+.block-comment .block-form-rating .form-group-rating .rating .form-group label.star {
+    color: #CA6971;
+    font-size: 17px;
+}
+
+.block-comment .block-form-rating .form-group-rating .rating .form-group input.star:checked ~ label.star:before {
+    color: #CA6971;
+}
+
+.block-comment .block-form-rating .form-group-rating .btn-submit {
+    background-color: #CA6971;
+}
+
+.block-breadcrumb .breadcrumb a:hover {
+    color: #CA6971;
+}
+
+.popup-search .block-header-search .form-group .btn-search:hover svg path {
+    stroke: #CA6971;
+}
+
+.popup-search .block-header-search .form-group .form-control:focus {
+    border-color: #CA6971;
+}
+
+@media (max-width: 768px) {
+    #sidenav ul li a:hover {
+        color: #CA6971;
+    }
+}
+/* end: style.css 1189 TODO: add more... */
+
+/* BUTTON_COLOR */
+.insert-button-color-selector-here {
+    color: #CA6971 !important;;
+}
+.product-item .product-content .action .btn-addcart,
+.block-footer .widget-footer form .form-group .btn-submit,
+.block-contact-page .form-feedback .btn-submit,
+.block-account-page .block-user-infor .btn-setting, .block-cart-page .block-user-infor .btn-setting,
+.block-address-page .header-address .btn-add-address,
+.block-address-page .elm-address .user-address .user-address-item .action-address .btn-add-address,
+.block-address-page .header-address .btn-add-address,
+.block-address-page .elm-address .user-address .form-payment .action-address .btn-edit,
+.block-address-page .elm-address .user-address .user-address-item .action-address .btn-edit
+{
+    background: #CA6971 !important;
+}
+.product-item .product-content .action .btn-addcart:hover {
+    background-color:  #CA6971 !important;
+}

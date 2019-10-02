@@ -1,0 +1,61 @@
+.content{
+	width: 1250px;
+	height: 500px;
+	margin: 0 auto;
+}
+.content .word-1{
+	width: 100%;
+	height: 30px;
+	color: #ccc;
+
+}
+ .content .word-1 h1{
+	width: 1250px;
+	text-align: center;
+	margin: 0;
+}
+.content .header{
+	width: 1250px;
+	padding-top: 60px;
+	position: absolute;
+}
+.header .vienngoai{
+	float: left;
+	width: 240px;
+	height: 330px;
+	left: 40px;
+	background-color: #e1dede;
+	margin-left: 55.5px;
+	border: 1px solid #ccc;
+}
+.header .vienngoai .vientrong{
+	width: 223px;
+	margin: 0 auto;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	padding-bottom: 35px;
+}
+.header .vienngoai .vientrong img{
+	width: 200px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+}
+h5{
+	text-align: center;
+	width: 200px;
+	margin: 30px auto;
+	color: black;
+	font-family: Arial;
+	font-size: 14px;
+}
+p{
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+	color: #acabab;
+	font-family: Arial;
+	font-size: 12px;
+}

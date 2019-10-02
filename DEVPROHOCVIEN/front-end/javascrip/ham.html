@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ham js</title>
+	<script type="text/javascript">
+		//gọi hàm trực tiếp
+		function showMessage(user) {
+			document.writeln("Xin chào " + user + " đã tham gia vào group của chúng tôi!");
+		}
+		// showMessage('Phạm Đức Văn');
+		
+		// gọi hàm bằng hàm khác
+		function callShowMessage() {
+			showMessage("Nguyên Văn B")
+		}
+		function what(name,job) {
+			document.writeln("ten người dùng: " + name + "<br />");
+			document.writeln("nghề nghiệp : " + job + "<br />");
+
+		}
+		what("Phạm Đức Văn","Developer");
+		// trả về giá trị của hàm : return: tên biến: 
+		function showFulName(firstName,lastName) {
+			var fullName=firstName +" " + lastName;
+			return fullName;
+		}
+		var name=showFulName('pham','duc van');
+		alert(name);
+	</script>
+</head>
+<body>
+	<a href="#" onclick="callShowMessage();">Xin Chào!</a>
+</body>
+</html>

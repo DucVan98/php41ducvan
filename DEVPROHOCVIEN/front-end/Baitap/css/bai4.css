@@ -1,0 +1,19 @@
+.containt{
+	margin: 0 auto;
+	width: 300px;
+	background-color: #ddd;
+}
+.containt h3{
+	text-align: center;
+	color: red;
+}
+.title{
+	font-weight: bold;
+}
+ul{
+	margin: 0;
+}
+p{
+	margin: 0;
+	font-weight: bold;
+}

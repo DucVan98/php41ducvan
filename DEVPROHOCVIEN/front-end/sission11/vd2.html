@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div
+        {
+            width: 25%;
+            float: left;
+            height: 200px;
+        }    
+        .xanh
+        {
+            background-color: green;
+        }
+        .do
+        {
+            background-color: red
+        }
+        .tim
+        {
+            background-color: purple;
+        }
+        .vang
+        {
+            background-color: yellow;
+        }
+        /* detect co man hinh la 1000px */
+        @media all and (max-width: 1000px)
+        {
+            /* dat lai do rong cua xanh do tim*/
+            .xanh, .do, .tim
+            {
+                width: 33,33%;
+            }
+            /* dat lai do rong cua vang */
+            .vang
+            {
+                width: 100%;
+            }
+        }
+        /* detect co man hinh 800*/
+        @media all and (max-width: 800px)
+        {
+            /* dat lai do rong cua cac class xanh do tim vang */
+            .xanh, .do, .tim, .vang
+            {
+                width: 50%;
+            }
+        }
+        /* detect co man hinh 600 */
+        @media all and (max-width: 600px)
+        {
+            /* dat lai do rong */
+            .xanh, .do, .tim, .vang
+            {
+                width: 100%;
+            }
+        }
+
+
+    </style>
+    <div class="xanh"></div>
+    <div class="do"></div>
+    <div class="tim"></div>
+    <div class="vang"></div>
+</body>
+</html>

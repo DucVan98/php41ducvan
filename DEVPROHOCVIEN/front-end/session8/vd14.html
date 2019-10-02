@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function getText(){
+		//lay value cua the html co id=txt
+		var str = document.getElementById("txt").value;
+		//xuat gia tri ra the html co id=show
+		document.getElementById("show").innerHTML = str;
+	}
+</script>	
+<fieldset style="width: 300px; margin:auto;">
+	<legend>Javascript</legend>
+	<input type="text" id="txt"> 
+	<input type="button" onclick="getText();" value="Click">
+	<h1 id="show"></h1>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+.header{
+	margin: 0 auto;
+	width: 1250px;
+	height: 100%;
+}
+.image{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.header .image img{
+	width: 400px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header .content .name{
+	width: 200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.header .content .row{
+	width: 1250px;
+	height: 100%;
+}
+.header .content .row table{
+	border: 1px solid red;
+	margin: 0 auto;
+}
+.header .content .row table tr{
+	width: 1250px;
+	height: 100%;
+
+}

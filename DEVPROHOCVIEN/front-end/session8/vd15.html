@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function cong2so(){
+		//lay value cua the html co id=so1
+		var s1 = document.getElementById("so1").value;
+		var s2 = document.getElementById("so2").value;
+		s1 = parseInt(s1);
+		s2 = parseInt(s2);
+		var ketqua = s1 + s2;
+		//xuat gia tri ra the html co id=ketqua
+		//chu y: xuat gia tri ra the form thi khong dung thuoc tinh .innerHTML, ma su dung thuoc tinh .value
+		document.getElementById("ketqua").value = ketqua;
+	}
+</script>	
+<fieldset style="width: 300px; margin:auto;">
+	<legend>Cong 2 so</legend>
+	<table cellpadding="5">
+		<tr>
+			<td>So 1</td>
+			<td><input type="number" id="so1"></td>
+		</tr>
+		<tr>
+			<td>So 2</td>
+			<td><input type="number" id="so2"></td>
+		</tr>
+		<tr>
+			<td>Ket qua</td>
+			<td><input type="text" id="ketqua" disabled></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="button" onclick="cong2so();" value="Thuc hien"></td>
+		</tr>
+	</table>
+</fieldset>
+</body>
+</html>

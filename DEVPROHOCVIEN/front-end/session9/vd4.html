@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd4</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function setColor(){
+			// lấy màu nền màu chữ
+			var maunen = document.getElementById("maunen").value;
+			//màu chữ
+			var mauchu = document.getElementById("mauchu").value;
+			//noi dung
+			var noidung = document.getElementById("noidung").value;
+			// tác động vào thẻ html có id=result
+			// thay đổi màu chữ , màu nền
+			document.getElementById("result").setAttribute("style","color:" +mauchu +";background-color:"+ maunen + ";text-align: center" );
+			//sự  kiện thực hiện lệnh click vào nút thực hiện 
+			document.getElementById("result").innerHTML = noidung;
+		}
+	</script>
+	<fieldset style="width: 300px; margin:50px auto;">
+		<legend>Định dạng màu chữ màu nền</legend>
+		<table>
+			<tr>
+				<td>màu chữ</td>
+				<td><input type="color" id="mauchu"></td>
+
+			</tr>
+			<tr>
+				<td>màu nền</td>
+				<td><input type="color" id="maunen"></td>
+
+			</tr>
+			<tr>
+				<td>nộ dung</td>
+				<td><input type="text" id="noidung"></td>
+
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="button" onclick="setColor();" value="thưc hiện"></td>
+
+			</tr>
+		</table>
+		<h1 id="result"></h1>
+	</fieldset>
+</body>
+</html>

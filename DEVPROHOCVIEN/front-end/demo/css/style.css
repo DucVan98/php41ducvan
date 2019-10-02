@@ -1,0 +1,152 @@
+.top{
+	background-image: url("../img/top.jpg");
+	
+}
+.top p{
+	float: left;
+	font-size: 13px;
+	margin: 0px;
+	line-height: 19px;
+	margin-left: 10px;
+	color: #fff;
+}
+.top ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	margin-left: 800px;
+
+}
+.top ul li{
+	display: inline;
+	line-height: 15px;
+}
+.top ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding-left: 10px;
+	font-size: 12px;
+	line-height: 15px;
+}
+.top ul li a:hover{
+	text-decoration: underline;
+}
+.benner img{
+	/* background-image: url("../img/titile.jpg"); */
+	width: 100%;
+}
+.menu-top ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+.menu-top ul li{
+	display: inline;
+	padding-left: 30px;
+	padding-right: 25px;
+}
+.menu-top ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Arial;
+	line-height: 25px;
+	color: #000;
+	font-weight: bold;
+}
+.menu-top ul li a:hover{
+	color: red;
+}
+.quangcao{
+	margin-top: 25px;
+	margin-left: 23px;
+	width: 670px;
+	height: 340px;
+	float: left;
+}
+.quangcao img{
+	width: 100%;
+	height: 100%;
+}
+.right{
+	background-image: url("../img/right.jpg");
+	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
+	width: 261px;
+	height: 340px;
+	background-size: 261px 340px ;
+}
+.right .title{
+	width: 100%;
+	height: 39px;
+	border-bottom: 1px solid #cdcdcd;
+}
+.right h3{
+    float: left;
+    margin: 0px;
+    margin-left: 25px;
+    line-height: 40px;
+}
+.right ul{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.right ul li{
+	margin-top: 5px;
+	margin-left: 10px;
+	border-bottom: 1px dotted #cdcdcd;
+	padding-bottom: 5px;
+	width: 241px;
+}
+.right ul li:first-child{
+	margin-top: 15px;
+}
+.right ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 13px;
+	color: #000;
+}
+.right ul li a:hover{
+	color: red;
+}
+.menu-button ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.menu-button ul li{
+	display: inline;
+	line-height: 50px;
+	margin-left: 50px;
+	margin-right: 35px;
+}
+.menu-button ul li a{
+	text-decoration: none;
+	font-size: 15px;
+	font-family: Arial;
+	color: #000;
+	font-weight: bold;
+}
+.menu-button ul li a:hover{
+	color: red;
+}
+.footer p{
+	font-size: 12px;
+    line-height: 35px;
+    margin: 0px;
+    margin-left: 16px;
+    float: left;
+    color: #fff;
+    font-family: Arial;
+}
+.footer p:first-child{
+	font-weight: bold;
+}
+.footer p:last-child{
+	font-weight: bold;
+	margin: 0px;
+}

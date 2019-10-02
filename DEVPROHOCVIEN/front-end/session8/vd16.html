@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function check(){
+		var str = document.getElementById("txt").value;		
+		if(str == ""){
+			//tac dong vao thuoc tinh style cua the html co id=txt
+			document.getElementById("txt").setAttribute("style","border:1px solid red");
+		}else{
+			//bo thuoc tinh style khoi the html co id=txt
+			document.getElementById("txt").removeAttribute("style");
+			//xuat gia tri ra the html co id=show
+			document.getElementById("show").innerHTML = str;
+		}
+	}
+</script>	
+<fieldset style="width: 300px; margin:auto;">
+	<legend>javascript</legend>
+	<input type="text" id="txt"> 
+	<input type="button" onclick="check();" value="click">
+	<h1 id="show"></h1>
+</fieldset>
+</body>
+</html>

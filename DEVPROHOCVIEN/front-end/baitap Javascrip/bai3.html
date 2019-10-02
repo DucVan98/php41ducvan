@@ -1,0 +1,50 @@
+
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai3</title>
+</head>
+	<style type="text/css">
+		#box{width: 400px;margin:0 auto;color: #fff;position: relative; height: 162px;}
+		#box h1{font-size: 20px;text-align: center;background-color: #dd4800;margin: 0;font-weight: bold;}
+		#box table{width: 400px;background-color:#f88dd7;
+			height: 140px;}
+			#box table tr{height: 25px;}
+	</style>
+	<script type="text/javascript">
+		function checkDienTichChuVi() {
+			var a=document.getElementById("bankinh").value;
+			var PI=3.14;
+			var dientich =a*a*PI;
+			var chuvi = 2*PI*a;
+			document.getElementById("dientich").value= dientich;
+			document.getElementById("chuvi").value= chuvi;
+		}
+	</script>
+<body>
+	<div id="box">
+		<h1>DIỆN TÍCH HÌNH CHỮ NHẬT</h1>
+		<table>
+			<tr>
+				<td>bán kính</td>
+				<td><input type="number" id="bankinh" ></td>
+			</tr>
+			
+			<tr>
+				<td>Diện tích</td>
+				<td><input type="text" id="dientich"></td>
+			</tr>
+			<tr>
+				<td>chuvi</td>
+				<td><input type="text" id="chuvi"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="Tính" onclick="checkDienTichChuVi();"style="position: absolute; left: 180px;bottom:0px;"></td>
+			</tr>
+
+		</table>
+	</div>
+			
+</body>
+</html>

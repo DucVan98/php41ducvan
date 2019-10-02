@@ -1,0 +1,34 @@
+-khai báo hàm: function tenham(thamso1,..thamsoN){
+	code;
+}
+-gọi hàm: 
+	-cacsh1: gọi hàm trực tiếp: 
+		function showMessage(user) {
+			document.writeln("Xin chào " + user + " đã tham gia vào group của chúng tôi!");
+		}
+		showMessage("Phạm Đức Văn");
+	-cách 2: gọi hàm qua thao tác của người dùng
+		function showMessage(user) {
+			document.writeln("Xin chào " + user + " đã tham gia vào group của chúng tôi!");
+		}
+		-dưới body: 
+			<a href="#" onclick="showMessage('Phạm Đức Văn')">Xin Chào!</a>
+	-cách 3: gọi hàm từ 1 hàm khác:
+		function callShowMessage() {
+			showMessage("Nguyên Văn B")
+		}
+		function what(name,job) {
+			document.writeln("ten người dùng: " + name + "<br />");
+			document.writeln("nghề nghiệp : " + job + "<br />");
+
+		}
+		what("Phạm Đức Văn","Developer");
+-biến: 
+	-biến toàn cục: là biến ảnh hưởng đến toàn trang khi nó khai báo không nằm trong hàm nào cả: 
+		var name=showFulName('pham','duc van');
+	-biến cục bộ: chỉ ảnh hưởng trong hàm đó và không ảnh hưởng đến cục bộ:
+		function showFulName(firstName,lastName) {
+			var fullName=firstName +" " + lastName;
+			return fullName;
+		}
+

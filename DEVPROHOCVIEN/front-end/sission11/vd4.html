@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+
+    <style>
+        body
+        {
+            margin: 0px;
+            padding: 0px;
+        }    
+        .wrapper
+        {
+            width: 1000px;
+            margin: auto;
+        }
+        .header, .footer
+        {
+            height: 100px;
+            background-color: red;
+            clear: both;
+        }
+        .left, .right
+        {
+            width: 200px;
+            height: 400px;
+            background-color: green;
+            float: left;
+        }
+        .main
+        {
+            width: 600px;
+            height: 400px;
+            background-color: purple;
+            float: left;
+        }
+        /* ---------------- */
+        nav.menu
+        {
+            background-color: black;
+        }
+        nav.menu ul
+        {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+        }
+        nav.menu ul li
+        {
+            display: inline;
+            line-height: 35px;
+        }
+        nav.menu ul li a
+        {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .menu-responsive
+        {
+            background-color: black;
+            display: none;
+        }
+        .menu-responsive ul
+        {
+            padding: 0px;
+            list-style: none;
+            margin: 0px;
+        }
+        .menu-responsive ul li
+        {
+            line-height: 35px;
+            border-bottom: 1px solid white;
+        }
+        ul li a
+        {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+        .menu-responsive-title
+        {
+            line-height: 35px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            display: none;
+        }
+        /* ---------------- */
+        h1
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+        /* detect co man hinh la 1000px */
+        @media all and (max-width: 1000px)
+        {
+            /* set lai do rong cua khoi wrapper theo % */
+            .wrapper
+            {
+                width: 100%;
+            }
+            .left, .right
+            {
+                width: 20%;
+            }
+            .main
+            {
+                width: 80%;
+            }
+            /* an khoi right */
+            .right
+            {
+                display: none;
+            }
+        }
+        /* detect co man hinh la 800px */
+        @media all and (max-width: 800px)
+        {
+            .left, .main, .right
+            {
+                width: 100%;
+            }
+            /* hien thi khoi right */
+            .right
+            {
+                display: block;
+            }
+            /* an class bang menu */
+            .menu
+            {
+                display: none;
+            }
+            /* hien thi class=.menu-responsive va class=.menu-responsive-title */
+            .menu-responsive-title
+            {
+                display: block;
+            }
+        }
+    </style>
+    <!-- -------------------------------- -->
+    <Script>
+        $(document).ready(function() {
+            $(".menu-responsive-title").click(function() {
+                $(".menu-responsive").slideToggle();
+            });
+        });
+    </Script>
+    <!-- -------------------------------- -->
+    <div class="wrapper">
+        <div class="header"><h1>Header</h1></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Trang chu</a></li>
+                <li><a href="#">Gioi thieu</a></li>
+                <li><a href="#">Tin tuc</a></li>
+                <li><a href="#">San pham</a></li>
+                <li><a href="#">Lien he</a></li>
+            </ul>
+        </nav>
+        <div class="menu-responsive-title">Menu</div>
+        <nav class="menu-responsive">
+            <ul>
+                <li><a href="#">Trang chu</a></li>
+                <li><a href="#">Gioi thieu</a></li>
+                <li><a href="#">Tin tuc</a></li>
+                <li><a href="#">San pham</a></li>
+                <li><a href="#">Lien he</a></li>
+            </ul>
+        </nav>
+        <div class="left"><h1>Left</h1></div>
+        <div class="main"><h1>Main</h1></div>
+        <div class="right"><h1>Right</h1></div>
+        <div class="footer"><h1>Footer</h1></div>
+    </div>
+</body>
+</html>

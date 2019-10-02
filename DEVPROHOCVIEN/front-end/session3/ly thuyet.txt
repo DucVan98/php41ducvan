@@ -1,0 +1,42 @@
+- Mot so cac tac dong vao thuoc tinh style cua the html -> tac dong vao css cua the html do
+	- Thong qua thuoc tinh style trong chinh the html do
+	- Thong qua class, id (dat trong tag <style></style>)
+		- Tac dong qua class: .tenclass{css}
+		- Tac dong qua id: #tenid{css}
+	- thong qua file .css
+- !important -> uu tien thuc hien thuoc tinh nay khi co cac thuoc tinh trung nhau
+- margin: day the html qua cac vi tri top right bottom left
+	- day tuong minh qua cac vi tri
+		margin-top: donvido
+		margin-left: donvido
+		margin-right: donvido
+		margin-bottom: donvido
+	- day vi tri qua 2 tham so: top_bottom left_rifht
+	- day vi tri qua 1 tham so: top_right_bottom_left
+- padding: day the html qua cac vi tri top right bottom left
+	- tham so giong margin
+- Thuoc tinh hover: di chuot vao the html
+	- Cu phap:
+		.tenclass:hover{css}
+		#id:hover{css}
+		tenthe:hover:{css}
+		co nghia la khi di chuot vao doi tuong the the viet lai css
+- Do bong the html
+	box-shadown: benphai benduoi donhoe mausac
+- Do bong text	
+	text-shadown: benphai benduoi donhoe mausac
+- border: duong vien cua the html
+	- border: dorong kieuduongvien mausac
+		dorong: tinh bang don vi do
+		kieuduongvien
+			solid: duong vien lien net
+			dotted: duong vien la cac dau cham
+			dashed: duong vien la cac dau gach chang
+	- border-top:dorong kieuduongvien mausac -> tac dong vao duong vien top (tuong tu cho cac vi tri right bottom left)
+	- border-top-width: dorong -> tac dong vao dorong cua duong vien top
+- bo tron the html
+	- border-radius: traitren phaitren traiduoi phaiduoi
+	- border-radius: tat_ca_cac_vi_tri
+	- border-radius: traitren_phaiduoi phaitren_traiduoi	
+- overflow: hidden
+- overlow: scroll

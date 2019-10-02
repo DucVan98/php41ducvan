@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		setInterval(function(){
+			// ngày và giờ
+			var date = new Date();
+			var year = date.getFullYear();
+			var month=date.getMonth();
+			var day=date.getDate();
+			var hour=date.getHours();
+			var minute=date.getMinutes();
+			var second=date.getSeconds();
+			//lấy thứ trong tuần
+			var strDay = date.getDay();
+			var str= "";
+			switch(strDay){
+				case 0: str = "chủ nhật"; break;
+				case 1: str = "thứ 2"; break;
+				case 2: str = "thứ 3"; break;
+				case 3: str = "thứ 4"; break;
+				case 4: str = "thứ 5"; break;
+				case 5: str = "thứ 6"; break;
+				case 6: str = "thứ 7"; break;
+
+			}
+			// tìm thời gian sáng hay chiều
+			AMPM = hour <=12 ? "AM" : "PM";
+			var strTime =str + " : "+day + "/" +month+"/"+year+" "+hour+":"+minute+":"+second +" " +AMPM;
+			document.getElementById("time").innerHTML = strTime;
+
+		},1000);
+	</script>
+	<fieldset style="width: 500px; margin: auto;">
+		<legend>Time</legend>
+		<h1 id="time" style="text-align: center;"></h1>
+		
+	</fieldset>
+</body>
+</html>

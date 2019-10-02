@@ -1,0 +1,10 @@
+- Phan khoi de tao cau truc cua website
+	- float: left -> can khoi ve ben trai
+	- float: right -> can khoi ve ben phai
+	- clear: both -> clear cac khoi da can trai hoac phai
+- marquee: hieu ung chu chay
+	- direction: up -> chu chay len tren
+	- direction: down -> chu chay xuong duoi
+	- direction:right -> chu chay qua phai
+	- Mac dinh: chu chay qua trai
+- Su dung mot so cong cu photoshop

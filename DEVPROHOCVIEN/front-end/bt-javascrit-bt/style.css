@@ -1,0 +1,24 @@
+.content{
+	width: 310px;
+	margin: auto;
+	border: 1px solid #ccc;
+
+}
+.images{
+	width: 310px;
+	height: 310px;
+}
+.box{
+	margin-top:10px;
+}
+.box-min{
+	width: 55px;
+	height: 55px;
+}
+.box-min:first-child{
+	margin-left: 10px;
+}
+.box-min:hover{
+	cursor: pointer;
+	opacity: 0.5;
+}

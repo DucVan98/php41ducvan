@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#hide').click(function(){
+			$("#images").hide(2000);
+		});
+		$('#show').click(function(){
+			$("#images").show(2000);
+		});
+		$('#toggle').click(function(){
+			$("#images").toggle(2000);
+		});
+	});
+</script>
+	<fieldset style="width: 500px;margin: auto;">
+		<legend>hide show toggle</legend>
+		<div style="margin-bottom: 15px;">
+			<input type="button" id="hide" value="hide">
+			<input type="button" id="show" value="show">
+			<input type="button" id="toggle" value="toggle">
+
+		</div>
+		<img src="images/a2.jpg" id="images">
+	</fieldset>
+</body>
+</html>

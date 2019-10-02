@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>
+	<script type="text/javascript">
+		function getText(){
+			var str= document.getElemenById("txt").value;
+			document.getElemenById("show").innerHTML=str;
+		}
+	</script>
+	<fieldset style="width: 300px; margin: auto;">
+		<legend>jas</legend>
+		<input type="text" id=txt name="">
+		<input type="button" onclick ="getText();" value="click" name="">
+		<h1 id="show"></h1>
+	</fieldset>
+	
+</body>
+</html>

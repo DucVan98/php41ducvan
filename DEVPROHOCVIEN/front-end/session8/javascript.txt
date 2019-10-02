@@ -1,0 +1,56 @@
+- javascript là ngôn ngữ hoạt động phía ngôn ngữ việt client(ngôn ngữ việt sever : php .net)
+- javascript hoạt động theo 3 cách 
+	-<div onclick="javascript">
+	-<div ondbclick="javascript">
+-tim hieu ngon ngu javasscript:
+	-cớ 2 loại hàm :
+		-hàm do ngôn ngữ định nghĩa 
+		-hàm do người dùng định nghĩa
+	+hàm do hệ thông định nghĩa
+		-alert(noi dung hoặc biến)->xuất ra màn hình thong báo, có nút ok.
+		-prompt(noi dung): hien thi thong bao co o texbox window.confim(noi dung)->hiển thị thông báo vs 2 nút ok-cancel. khi click ok sẽ trả về true ngược lại trả về fale
+		-document.write(noi dung)->xuat noi dung len man hinh
+	-biến trong javascript:
+		- biến sử dụng để lưu trữ dữ liệu
+	-ép kiểu số nguyên:parseInt(kytu)
+	-ép kiểu số thực:parseFloat(kytu)
+	-hàm : isNaN(lytu)
+		-trả về true nếu kytu la chu;
+		-trả về false nếu kytu la so;
+	-phép toán tăng giảm 1 đơn vị
+	-khối lệnh thực hiện ở 2 vế true: flase
+	bieu0thuc-so-sánh ? true thì thực hiện ở đây : false thì thưc hiện ở đây
+	-khối lệnh switch case
+		switch(bien){
+			case giatri1:
+				code
+			break;
+			case giatri2:
+				code
+			break;
+			default:
+				code
+			break;
+		}
+		while(dieukien){
+			code
+		}
+		do{
+			code
+		}while(dieukien);
+	-hàm :
+		-đặt tên hàm giống đặt tên biến;
+		-các loại hàm:
+			-hàm có giá trị trả về: sử dụng từ khóa return để trả về giá trị;
+			-hàm không có giá trị trả về;
+			hàm có giá trị truyền vào;
+			hàm không có giá trị truyền vào;
+		sử dụng từ kháo function đầu tiên
+-trong thr html  có thuộc tính để thực hiện câu lệnh jas, thuộc tính nầy sẽ bắt đàu bằng chữ on
+-tác động vủa thẻ html vào jas:
+document.getElmentById("tenid")
+	-value: lấy value của thẻ html;
+	.innerHTML=giatri: xuất giá trị ra thẻ html
+	.setAttribute(name,value) : tác dụng vào thuộc tính của thẻ html để đặt giá trị;
+	.removeAttribute(name): xóa thuộc tính trong thẻ html;
+	.getAttribute(name): láy gái trị của thuộc tính trong thẻ hhtml

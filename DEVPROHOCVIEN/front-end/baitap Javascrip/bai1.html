@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai1</title>
+</head>
+	<style type="text/css">
+		#box{width: 400px;margin:0 auto;color: #fff;position: relative; height: 162px;}
+		#box h1{font-size: 20px;text-align: center;background-color: #dd4800;margin: 0;font-weight: bold;}
+		#box table{width: 400px;background-color:#f88dd7;
+			height: 140px;}
+			#box table tr{height: 25px;}
+	</style>
+	<script type="text/javascript">
+		function checkColer(){
+			var noidung=document.getElementById("noidung").value;
+			var maunen=document.getElementById("maunen").value;
+			var mauchu=document.getElementById("mauchu").value;
+			document.getElementById("xuat").setAttribute("style","color:" + "#"+mauchu +";background-color:"+"#"+ maunen + ";text-align: center" + ";width: 400px" );
+			document.getElementById("xuat").innerHTML = noidung;
+		}
+	</script>
+<body>
+	<div id="box">
+		<h1>ĐINH DẠNG MÀU CHỮ - MÀU NỀN</h1>
+		<table>
+			<tr>
+				<td>nội dung</td>
+				<td><input type="text" name="" style="width:280px;" id="noidung" ></td>
+			</tr>
+			<tr>
+				<td>mau nền</td>
+				<td><input type="text" id="maunen"></td>
+			</tr>
+			<tr>
+				<td>màu chữ</td>
+				<td><input type="text"id="mauchu"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="Xem kết quả" onclick="checkColer();"style="position: absolute; left: 150px;bottom:0px;"></td>
+			</tr>
+
+		</table>
+	<h2 id="xuat"></h2>
+	</div>
+			
+</body>
+</html>

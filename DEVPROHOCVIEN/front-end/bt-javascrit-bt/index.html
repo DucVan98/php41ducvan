@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bài tập về nhà</title>
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js">
+	</script>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var box_min="border: 3px solid green;";
+			$(".box-min").click(function(){
+				var img=$(this).attr("src");
+				if (img!=$(".images").attr("src")) {
+					$(".images").fadeOut(function(){
+						$(".images").attr("src",img);
+						$(".images").fadeIn();
+					});
+				}
+				$(this).siblings().removeAttr("style");
+				$(this).attr("style",box_min);
+			});
+		});
+	</script>
+	<div class="content">
+		<div class="img">
+			<img src="images/1.jpg" class="images" alt="">
+		</div>
+		<div class="box">
+			<img src="images/1.jpg" class="box-min" >
+			<img src="images/2.jpg" class="box-min" >
+			<img src="images/3.jpg" class="box-min" >
+			<img src="images/4.jpg" class="box-min" >
+			<img src="images/5.jpg" class="box-min" >
+
+		</div>
+	</div>
+</body>
+</html>

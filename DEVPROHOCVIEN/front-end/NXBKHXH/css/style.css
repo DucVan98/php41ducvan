@@ -1,0 +1,538 @@
+/* top */
+.top ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-left: 600px;
+	text-align: center;
+	color: #fff;
+	width: 330px;
+	margin-right: 0px;
+	float: left;
+}
+.top ul li{
+	display: inline-table;
+	margin-right: 10px;
+	margin-left: 10px;
+/* 		border-left: 1px solid #fff; */
+
+}
+.top ul li a{
+	text-decoration: none;
+	line-height: 23px;
+	font-size: 11px;
+	font-family: Arial;
+	color: #fff;
+}
+.top ul li a:hover{
+	color: #ccc;
+}
+.top a img{
+	float: left;
+	margin-top: 3px;
+
+}
+.top a img:last-child{
+	margin-left: 3px;
+}
+.check{
+	background-image: url("../images/check1.jpg");
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 22px;
+	background-repeat: no-repeat;
+	right: 0px;
+	left: 770px;
+	height: 55px;
+}
+.checked {
+	line-height: 30px;
+	margin-left: 10px;
+	position: relative;
+}
+.checked input{
+	width: 200px;
+	height: 20px;
+	font-size: 12px;
+}
+.checked img
+{
+	position: absolute;
+	top: 7px;
+	left: 180px;
+}
+.check2 {
+	margin-left: 110px;
+}
+.check2 a{
+	color: #fff;
+	font-size: 12px;
+}
+/* end top */
+/* menu */
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background-color: #9f2f11;
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff; 
+	border-right: 2px solid #fff;
+	height: 30px;
+}
+/* .menu ul img{
+	line-height: 30px;
+	height: 30px;
+} */
+.menu ul li{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 1px;
+	display: inline-table;
+	line-height: 29px;
+	border-right: 5px solid #b73f1d;
+	height: 29px;	
+}
+/* .menu ul li:last-child{
+	border: none;
+} */
+.menu ul li a{
+	font-size: 11px;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+.menu ul li:hover{
+	background: #be5234;
+}
+.menu ul li > .sub-menu{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: none;
+
+}
+/* end menu */
+/* slide */
+.slide ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	padding-top:20px;
+	padding-left: 28px;
+}
+.slide ul li{
+	display: inline;
+	margin-left: 16px;
+
+}
+.slide ul li:first-child{
+	margin: 0px;
+}
+.slide ul li a img{
+	border: 4px solid #fff;
+}
+
+.a1{
+	float: left;
+	position: absolute;
+	top: 45%;
+	left: 0;
+}
+.a2{
+	float: right;
+	position: absolute;
+	top: 44%;
+	right: 0;
+}
+/* end slide */
+/* content */
+/* left */
+/*menu-left  */
+
+.menu-left{
+	width: 100%;
+	background-image: url("../images/bg-menu-left.jpg");
+	background-size: 230px 535px ;
+	height: 535px;
+}
+.menu-left ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	padding-top: 35px;	
+}
+.menu-left ul li{
+	background-image: url("../images/bg-text-left.jpg");
+	padding-top: 2px;
+	line-height: 29px;
+	background-repeat: no-repeat;
+	background-size: 228px 29px ;
+	width: 228px; height: 29px;
+	margin: auto;
+}
+.menu-left ul li img{
+	float: left;
+	margin-left: 4px;
+	margin-top: 2px;
+}
+.menu-left ul li a:hover{
+	background-color: #e8dbc7;
+}
+.menu-left ul li a{
+	text-decoration: none;
+	padding-left: 35px;
+	color: #7d1900;
+	display: block;
+	font-size: 12px;
+}
+/*end menu-left */
+/* seach */
+.search{
+	margin-top: 11px;
+	background-image: url("../images/seach-book.jpg");
+	background-size: 230px 195px;
+	width: 230px; 
+	height: 195px;
+}
+.search input{
+	width: 200px;
+	margin-left: 15px;
+	margin-top: 42px;
+	height: 22px;
+	font-size: 11px;
+}
+.select{
+	width: 230px;
+	height: 97px;
+}
+.s1{
+	float: right;
+	width: 145px;
+	margin-right: 11px;
+	font-size: 12px;
+	height: 22px;
+	opacity: 0.7;
+	margin-top: 8px;
+}
+.s2{
+	float: right;
+	width: 105px;
+	height: 22px;
+	font-size: 11px;
+	opacity: 0.7;
+	margin-right: 12px;
+	margin-top: 8px;
+}
+.s3{
+	float: right;
+	width: 105px;
+	height: 22px;
+	font-size: 11px;
+	opacity: 0.7;
+	margin-right: 12px;
+	margin-top: 8px;
+}
+.search button{
+	height: 23px;
+	width: 87px;
+	float: right;
+	margin-right: 12px;
+}
+/* end seach */
+/* link */
+.link{
+	background-image: url("../images/lk-web.jpg");
+	background-size: 230px 85px ;
+	height: 85px;
+	margin-top: 10px;
+}
+.link select{
+	width: 203px;
+	height: 20px;
+	margin-top: 45px;
+	margin-left: 15px;
+	opacity: 0.7;
+	font-size: 12px;
+}
+
+/* end link */
+/* advertisement */
+.advertisement1{
+	height: 97px;
+	margin-left: 20px;
+}
+.advertisement2{
+	margin-left: 20px;
+	height: 140px;
+}
+/* end advertisement */
+/* end left */
+/* main */
+.main-introduce{
+	width: 520px;
+	margin-top: 35px;
+}
+.main-introduce ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.main-introduce ul li{
+	background-image: url("../images/bg-gtsach.jpg");
+	width: 520px;
+	height: 163px;
+	background-size: 520px 163px;
+	margin-left: 1px;
+}
+.main1{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+.img{
+	float: left;
+	width: 95px;
+	height: 138px;
+	margin-left: 5px;
+	margin-top: 10px;
+
+}
+.img img{
+	padding: 4px;
+	border: 1px solid #dec88a;
+}
+.text{
+	width: 400px;
+	margin-top: 10px;
+	height: 30px;
+		float: left;
+}
+.text .title{
+	width: 100%;
+	font-size: 12px;
+	color: #811a00;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+.text .title a{
+	text-decoration: none;
+		color: #811a00;
+}
+.mua{
+	background-image: url("../images/button-sach.jpg");
+	-webkit-background-size: 115px 30px;
+	background-size: 115px 30px;
+	    width: 115px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: -163px;
+    font-size: 12px;
+}
+.mua a{
+	text-decoration: none;
+	    margin: 0;
+    line-height: 30px;
+    margin-left: 15px;
+    color: #000;
+}
+.gia{
+	margin-top: 10px;
+}
+.gia p{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 10px;
+	font-size: 12px;
+	float: left;
+}
+.noidung{
+	margin-left: 10px;
+	float: left;
+}
+.noidung p{
+	font-size: 12px;
+}
+/* end main */
+/* end content */
+/* footer */
+.wapper-1{
+	width: 960px;
+	margin: auto;
+}
+.wapper-top{
+	width: 100%;
+	float: left;
+}
+/* account */
+.account{
+	width: 185px;
+	height: 195px;	
+	float: left;
+}
+.account-sub{
+	padding-top: 15px;
+	color: #fff;
+	font-size: 12px;
+}
+.account ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: square;
+	margin-top: 20px;
+	color: #fff;
+	margin-left: 20px;
+}
+.account ul li{
+	margin-top: 5px;
+}
+.account ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+.account ul li a:hover{
+	text-decoration: underline;
+}
+/* end account */
+/* help */
+.help{
+	width: 185px;
+	height: 195px;
+	float: left;
+	margin-left: 50px;
+}
+
+.help-sub{
+	padding-top: 15px;
+	color: #fff;
+	font-size: 12px;
+}
+.help ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: square;
+	margin-top: 20px;
+	color: #fff;
+	margin-left: 20px;
+}
+.help ul li{
+	margin-top: 5px;
+}
+.help ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+.help ul li a:hover{
+	text-decoration: underline;
+}
+/* end help */
+/* introduce */
+.introduce{
+	width: 185px;
+	height: 195px;
+	float: left;
+	margin-left: 108px;
+}
+
+.introduce-sub{
+	padding-top: 15px;
+	color: #fff;
+	font-size: 12px;
+}
+.introduce ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: square;
+	margin-top: 20px;
+	color: #fff;
+	margin-left: 20px;
+}
+.introduce ul li{
+	margin-top: 5px;
+}
+.introduce ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+.introduce ul li a:hover{
+	text-decoration: underline;
+}
+/* end introduce */
+/* wapper-button */
+.wapper-button{
+	width: 960px;
+	margin: auto;
+	float: left;
+}
+.title{
+	margin-left: 22px;
+	margin-top: 10px;
+	color: #ccc;
+	font-size: 14px;
+	font-weight: bold;
+}
+/* button-left */
+.button-left{
+	width: 412px;
+	float: left;
+	margin-top: 5px;
+	height: 70px;
+	border-right: 1px dotted #ccc;
+}
+.button-left ul{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 22px;
+	list-style: none;
+	margin-top: 10px;
+}
+.button-left ul li{
+	display: inline;
+	float: left;
+	width: 400px;
+	font-size: 11px;
+	margin-top: 5px;
+	color: #ccc;
+}
+/* end button-left
+/* button-right */
+.button-right{
+	width: 412px;
+	height: 70px;
+	margin-top: 10px;
+	float: left;
+}
+.button-right .title{
+	margin-left: 22px;
+	margin-top: 10px;
+	color: #ccc;
+	font-size: 10px;
+	font-weight: bold;
+}
+.button-right ul{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 22px;
+	list-style: none;
+/* 	margin-top: 5px; */
+}
+.button-right ul li{
+	display: inline;
+	float: left;
+	width: 400px;
+	font-size: 11px;
+	margin-top: 5px;
+	color: #ccc;
+}
+/* end button-right */
+/* END wapper-button */
+ /* end footer

@@ -1,0 +1,113 @@
+- Javascript la ngon ngu hoat dong phia client
+- Javascript hoat dong theo 3 cach
+	- Dat trong tag <scirpt>code javascript</script>
+	- Su dung javascript thuoc tinh cua the html
+		<div onclick="code javascript">
+		<div ondbclick="code javascript">
+	- Su dung javascript viet trong file .js
+- Tim hieu ngon ngu javascript	
+	 - Ghi chu tren mot dong: su dung ky hieu // dau ten file
+	 - Ghi chu tren nhieu dong: su dung ky hieu /* cac dong ghi chu */
+	 - javascript co 2 loai ham (function)
+	 	- Ham do nguoi dung tu dinh nghia
+	 	- Ham do ngon ngu dinh nghia san
+	 		- alert(noi dung hoac bien)	-> xuat thong bao len man hinh, co nut ok
+	 		- prompt(noi dung) -> hien thi thong bao, co o textbox de nguoi dung nhap ky tu tu ban phim
+	 		- window.confirm(noi dung) -> hien thi thong bao voi 2 nut ok-cancel. khi click ok se tra ve tru, nguoc lai tra ve false
+	 		- document.write(noi dung) -> xuat noi dung len man hinh
+	- Bien trong javascript
+		- Bien su dung de luu tru du lieu
+		- Quy tac dat ten bien:
+			- Bien bao gom cac ky tu a-zA-Z, so, mot so ky hieu khac
+			- So khong duoc dung dau ten bien
+			- Ten bien khong duoc bao gom cac ky tu dac biet. Vd: !@#$%^&*()
+			- Dat ten bien theo quy tac:
+				var tenbien = giatri;
+				tenbien = giatri;
+			- Cac kieu bien:
+				- So nguyen -> Integer
+				- So thuc -> Float
+				- Kieu string -> phai co dau nhay bao quanh gia tri
+				- Kieu Array
+				- Kieu object
+				Chu y: gia tri cua bien se quy dinh kieu bien
+	- noi chuoi voi chuoi, chuoi voi bien: su dung ky hieu + de thuc hien
+	- Cac phep toan:
+		- Cong: +
+		- Tru: -
+		- Nhan: *
+		- Chia: /
+		- Chia lay du: %
+	- Ep kieu so nguyen: parseInt(kytu)
+	- Ep kieu so thuc: parseFloat(kytu)
+	- Ham isNaN(kytu)
+		- tra ve true neu kytu la chu
+		- tra ve false neu kytu la so
+	- phep toan tang, giam 1 don vi
+		- tang truoc: ++so
+		- tang sau: so++
+		- giam truoc: --so
+		- giam sau: so--
+	- Toan tu so sanh: chi tra ve true hoac false
+		- Lon hon: >
+		- Lon hon hoac bang: >=
+		- Nho hon: <
+		- Nho hon hoac bang: <=
+		- Bang nhau: ==
+		- Khac nhau: !=
+	- Toan tu quan ke (ket hop cac phep toan so sanh)
+		- toan tu va: && -> khi tat ca cac bieu thuc so sanh tra ve true thi ket qua cuoi cung moi tra ve true. Nguoc lai se tra ve false
+			- true && true && true -> true
+			- true && true && false -> false
+		- toan tu hoac: || -> chi can mot bieu thuc so sanh tra ve true thi ket qua cuoi cung se tra ve true
+	- Khoi lenh if
+		if(bieu thuc so sanh tra ve true){
+			thuc hien o day
+		}else if(bieu thuc so sanh tra ve true){
+			thuc hien o day
+		}else{
+			thuc hien o day
+		}
+	- Khoi lenh thuc hien o 2 ve true: false
+	bieu-thuc-so-sanh ? true thi thuc hien o day : flase thi thuc hien o day
+	- Khoi lenh switch case
+		switch(bien){
+			case giatri1:
+				code
+			break;
+			case giatri2:
+				code
+			break;
+			default:
+				code
+			break;
+		}
+	- Vong lap for:
+		for(batdau; ketthuc; dieukien){
+			code
+		}
+	- Vong lap while
+		while(dieukien){
+			code
+		}
+	- Vong lap do while
+		do{
+			code
+		}while(dieukien);
+	- Ham trong javascript (do user dinh nghia):
+		- Quy tac dat ten ham giong quy tac dat ten bien
+		- Cac loai ham:
+			- Ham co gia tri tra ve: su dung tu khoa return de tra ve gia tri
+			- Ham khong co gia tri tra ve
+			- ham co gia tri truyen vao
+			- Ham khong co gia tri truyen vao
+		- Su dung tu khoa function dau ten ham
+	- Trong the html co thuoc tinh de thuc hien cau lenh javascript, thuong thuoc tinh nay se bat dau bang chu on
+	- Javascript tac dong vao the html thuoc qua thuoc tinh id cua the html bang cu phap:
+	document.getElementById("tenid")
+		.value -> lay value cua the html
+		.innerHTML=giatri -> xuat gia tri ra the html
+		.setAttribute(name,value) -> tac dong vao thuoc tinh cua the html de dat gia tri
+		.removeAttribute(name) -> xoa thuoc tinh trong the html
+		.getAttribute(name) -> lay gia tri cua thuoc tinh trong the html
+	

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function check(){
+			var str = document.getElementById("txt").value;
+			if(str == ""){
+				//1
+				//2
+				document.getElementById("txt").setAttribute("style","border:1px solid red");
+		}else{
+			//1
+			document.getElementById("txt").removeAttribute("style");
+			//1
+			document.getElementById("show").innerHTML = str;
+		}
+	}
+	</script>
+	<fieldset style="width: 300px; margin: auto;">
+		<legend>jass</legend>
+		<input type="text" id="txt">
+		<input type="button" onclick="check();" value="click">
+		<h1 id="show"></h1>
+	</fieldset>
+</body>
+</html>

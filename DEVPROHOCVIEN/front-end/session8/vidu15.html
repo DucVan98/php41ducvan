@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		function cong2so() {
+			var s1=document.getElementById("so1").value;
+			var s2=document.getElementById("so2").value;
+			s1=parseInt(s1);
+			s2=parseInt(s2);
+
+			var ketqua = s1 + s2;
+			document.getElementById("ketqua").value = ketqua;
+
+		}
+	</script>
+	<fieldset>
+		<legend>cong 2 so</legend>
+		<table>
+				<tr>
+					<td>so1</td>
+					<td><input type="number" id="so1"></td>
+				</tr>
+				<tr>
+					<td>so2</td>
+					<td><input type="number" id="so2"></td>
+				</tr>
+				<tr>
+					<td>ket qua</td>
+					<td><input type="text" id="ketqua" disabled></td>
+				</tr>
+				<tr>
+					<td>so1</td>
+					<td><input type="button" onclick="cong2so();" value="thuc hien"></td>
+				</tr>
+	</fieldset>
+
+</body>
+</html>

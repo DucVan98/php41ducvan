@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd3</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function changeMap(){
+			// lay value cua the html co id=drd
+			var image= document.getElementById("drd").value;
+			// tác động vào thẻ id có id="map" -> đặt lại giá trị của thuộc tính src
+			document.getElementById("map").setAttribute("src",image);
+		}
+	</script>
+	<fieldset style="width: 300px; margin: 50px auto;">
+		<legend>Map</legend>
+		<select id="drd" style="width: 100%;" onchange="changeMap();">
+			<option value="images/a1.jpg">map 1</option>
+			<option value="images/a2.jpg">map 2</option>
+			<option value="images/a3.jpg">map 3</option>
+
+		</select>
+		<div style="margin-top: 10px; text-align: center">
+			<img id="map" src="images/a1.jpg" >
+		</div>
+	</fieldset>
+</body>
+</html>

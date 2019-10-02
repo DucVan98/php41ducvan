@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.baivenha{
+	width: 1422px;
+	margin: auto;
+}
+.middle{
+	width: 1000px;
+	margin: auto;
+}
+.left{
+	width: 235px;
+	float: left;
+
+}
+.main{
+	width: 540px;
+	float: left;
+	margin-top: 10px;
+}
+.right{
+	width: 225px;
+	float: left;
+}
+.footer,.header{clear: both;} 

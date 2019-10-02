@@ -1,0 +1,40 @@
+fieldset{
+	width: 400px;
+	margin: 0 auto;
+}
+legend{
+	font-weight: bold;
+	color: red;
+	font-style: italic;
+	font-size: 20px;
+}
+.equation{
+	background-color: #ddd;
+}
+.word{
+	background-color: green;
+	width:  150px;
+	color: #fff;
+}
+.number-1{
+	width: 30px;
+	margin-right: 0;
+	float: left;
+	background-color: #dddddd;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+.number-2{
+	width: 10px;
+	margin-right: 0;
+	float: left;
+	margin-top: 0px;
+}
+.number-3{
+	margin-left: 10px;
+	width: 45px;
+	margin-right: 0;
+	float: left;
+	background-color: #dddddd;
+	margin-top: 0px;
+}

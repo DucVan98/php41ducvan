@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function setColor(color){
+		switch(color){
+			case "green":
+				document.getElementById("box").setAttribute("style","background-color:green");
+			break;
+			case "red":
+				document.getElementById("box").setAttribute("style","background-color:red");
+			break;
+			case "purple":
+				document.getElementById("box").setAttribute("style","background-color:purple");
+			break;
+			case "yellow":
+				document.getElementById("box").setAttribute("style","background-color:yellow");
+			break;
+		}
+	}
+</script>	
+<fieldset style="width: 300px; margin:auto;">
+	<legend>Javascript</legend>
+	<div style="margin-bottom: 10px; text-align: center;">
+		<input type="button" onclick="setColor('green');" value="Xanh"> 
+		<input type="button" onclick="setColor('red');" value="Do"> 
+		<input type="button" onclick="setColor('purple');" value="Tim"> 
+		<input type="button" onclick="setColor('yellow');" value="Vang"> 
+	</div>
+	<div id="box"></div>
+</fieldset>
+<style type="text/css">
+	#box{width: 300px; height: 300px; border-radius: 300px; border:1px solid #dddddd;}
+</style>
+</body>
+</html>

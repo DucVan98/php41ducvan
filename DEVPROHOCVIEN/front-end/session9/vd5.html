@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd5</title>
+</head>
+<body>
+	<script type="text/javascript">
+		n=0;
+	var id = setInterval(function(){
+			n++;
+			document.getElementById('show').innerHTML = n;
+			// khi n=5 thì dừng hàm interval
+			if(n==5){
+				clearInterval(id);
+			}
+		},1000);
+	</script>
+	<fieldset style="width: 300px;margin: 50px auto;">
+		<legend>setInterval</legend>
+		<h1 id="show" style="text-align: center;"></h1>
+	</style>
+		
+	</fieldset>
+</body>
+</html>

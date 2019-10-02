@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery</title>
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//khi click thẻ html có id=green 
+			$("#green").click(function(){
+				// tác đông vào thẻ html có class=box
+				$(".box").attr("style","background-color:green");
+			});
+			$("#red").click(function(){
+				// tác đông vào thẻ html có class=box
+				$(".box").attr("style","background-color:red");
+			});
+			$("#purple").click(function(){
+				// tác đông vào thẻ html có class=box
+				$(".box").attr("style","background-color:purple");
+			});
+			$("#yellow").click(function(){
+				// tác đông vào thẻ html có class=box
+				$(".box").attr("style","background-color:yellow");
+			});
+		});
+	</script>
+	<style type="text/css">
+		.box{width: 300px;height: 300px;border: 1px solid #ddd;
+			background-color: green;border-radius: 300px;}
+	</style>
+	<fieldset style="width: 300px;margin: auto;">
+		<legend>box color</legend>
+		<div style="margin-bottom: 10px;">
+			<input type="radio" name="rdo" checked id="green">xanh
+			<input type="radio" name="rdo" id="red">do
+			<input type="radio" name="rdo" id="purple">tim
+			<input type="radio" name="rdo" id="yellow">vang
+
+		</div>
+		<div class="box"></div>
+	</fieldset>
+</body>
+</html>

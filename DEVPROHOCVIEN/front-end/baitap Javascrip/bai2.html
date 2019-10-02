@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai2</title>
+</head>
+	<style type="text/css">
+		#box{width: 400px;margin:0 auto;color: #fff;position: relative; height: 162px;}
+		#box h1{font-size: 20px;text-align: center;background-color: #dd4800;margin: 0;font-weight: bold;}
+		#box table{width: 400px;background-color:#f88dd7;
+			height: 140px;}
+			#box table tr{height: 25px;}
+	</style>
+	<script type="text/javascript">
+		function checkDientich() {
+			var a=document.getElementById("chieudai").value;
+			var b=document.getElementById("chieurong").value;
+			var dientich =a*b;
+			document.getElementById("dientich").value= dientich;
+		}
+	</script>
+<body>
+	<div id="box">
+		<h1>DIỆN TÍCH HÌNH CHỮ NHẬT</h1>
+		<table>
+			<tr>
+				<td>Chiều dài</td>
+				<td><input type="number" id="chieudai" ></td>
+			</tr>
+			<tr>
+				<td>Chiều rộng</td>
+				<td><input type="number" id="chieurong"></td>
+			</tr>
+			<tr>
+				<td>Diện tích</td>
+				<td><input type="text" id="dientich"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="Tính" onclick="checkDientich();"style="position: absolute; left: 180px;bottom:0px;"></td>
+			</tr>
+
+		</table>
+	</div>
+			
+</body>
+</html>

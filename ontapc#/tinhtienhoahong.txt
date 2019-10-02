@@ -1,0 +1,47 @@
+using System;
+
+namespace tienhoahong
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name;
+            int hoahong;
+            Console.Write("\n");
+            Console.Write("\ttinh tien hoa hong cua nhan vien");
+            Console.Write("---------------------------------------");
+            Console.Write("\n\n");
+
+            Console.Write("nhap ten nhan vien: ");
+            name = Console.ReadLine();
+
+            Console.Write("\nNhap so tien ban : ");
+            int tienbh = Int32.Parse(Console.ReadLine());
+            //xac dinh so tien hoa hong ma nhan vien duoc nhan
+            
+            if(tienbh < 1000)
+            {
+                hoahong = 0;
+                Console.Write("1");
+            }
+            else if(tienbh >=1000 && tienbh <=3000)
+            {
+                Console.Write("2");
+                hoahong = tienbh*5/100;
+                tienbh = tienbh + hoahong;
+
+            }
+            
+            else
+            {
+                hoahong = tienbh * 10 / 100;
+                tienbh = tienbh + hoahong;
+
+            }
+            Console.WriteLine("Ten" +": "+ name + "," + " Tien ban : " +" "+ "Hoa hong"+": " + hoahong);
+            //Console.WriteLine("ten nhan vien: {0},tien hoa hong: {1}", name, hoahong);
+            Console.ReadLine();
+        }
+    }
+}

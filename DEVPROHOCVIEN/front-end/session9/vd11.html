@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<style type="text/css">
+		#box{width: 700px;height: 201px;margin: 50px auto;}
+	</style>
+	<script type="text/javascript">
+		var slide = new Array();
+		slide[0] = "images/c1.jpg";
+		slide[1] = "images/c2.jpg";
+		slide[2] = "images/c3.jpg";
+		slide[4] = "images/c4.jpg";
+		//tao bien key luu vi tri array:
+		key =0;
+		function slideShow(){
+			//tanwg bien key;
+			key++;
+			//gan lai duong dan cua the html co id=slide
+			document.getElementById("slide").setAttribute("src",slide[key]);
+			// neu kry o vi tri cuoi cung thi reset key=0
+			if(key == slide.length-2){
+				key = 0;
+			}
+		}
+		setInterval(slideShow,2000);
+
+	</script>
+	<div id="box">
+		<img src="images/c1.jpg" id="slide">
+	</div>
+</body>
+</html>

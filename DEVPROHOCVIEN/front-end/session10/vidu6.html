@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// fadeOut
+			$("#a1").click(function(){
+				$("#images").fadeOut();
+			});
+			$("#a2").click(function(){
+				$("#images").fadeOut(2000);
+			});
+			$("#a3").click(function(){
+				$("#images").fadeOut(2000,function(){
+					alert('hello');
+				});
+			});
+
+			// fadeIn
+			$("#b1").click(function(){
+				$("#images").fadeIn();
+			});
+			$("#b2").click(function(){
+				$("#images").fadeIn(2000);
+			});
+			$("#b3").click(function(){
+				$("#images").fadeIn(2000,function(){
+				
+				});
+			});
+			// fadeToggle
+			$("#c").click(function(){
+				$("#images1").fadeToggle(2000,function(){
+				});
+			});
+		});
+
+	</script>
+	<fieldset style="width: 500px;margin: auto;">
+		<legend>fadeIn, FadeOut, fadeToggle</legend>
+		<div style="margin-bottom: 10px;">
+			<input type="button" id="a1" value="fedeOut-1" name="">
+			<input type="button" id="a2" value="fedeOut-2" name="">
+			<input type="button" id="a3" value="fedeOut-3" name="">
+		</div>
+		<div style="margin-bottom: 10px;">
+			<input type="button" id="b1" value="fedeIn-1" name="">
+			<input type="button" id="b2" value="fedeIn-2" name="">
+			<input type="button" id="b3" value="fedeIn-3" name="">
+		</div>
+		<div style="margin-bottom: 10px;">
+			<input type="button" id="c" value="fedeToggle-1" name="">
+			
+		</div>
+		<img src="images/a1.jpg" id="images">
+		<img src="images/a2.jpg" id="images1">
+	</fieldset>
+</body>
+</html>

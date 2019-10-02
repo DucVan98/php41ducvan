@@ -1,0 +1,132 @@
+body{
+	font-family: Arial;
+	color: #333;
+	height:100%;
+}
+.rim{
+	margin: 0 auto;
+	width: 1250px;
+	height: 100%;
+}
+.image{
+	width: 700px;
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.image img{
+	width: 100%;
+	height: 100%;
+
+}
+.rim .content{
+	width: 1250px;
+	height: 100%;
+	margin: 0 auto;
+}
+.content .name{
+	width: 100%;
+	height: 35px;
+		padding-bottom: 10px;
+}
+.content  .name h3{
+	text-align: center;
+	font-family: Arial;
+	font-size: 34px;
+	margin-bottom: 0px;
+
+}
+.content .list{
+	width: 100%;
+	display: flex;
+}
+.content .list .item{
+	width: 25%;
+    font-size: 14px;
+    font-family:Arial ;
+    line-height: 22px;
+    color: #111;
+    text-transform: uppercase;
+    border-right: 1px solid #bfbfbf;
+}
+.content .list .item p{
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 14px;
+    font-family: Arial;
+    line-height: 22px;
+    color: #111;
+    text-transform: uppercase;
+
+}
+.content .list .item h5{
+	text-align: center;
+	font-weight: normal;
+}
+
+.content .Processing{
+	width: 100%;
+}
+.line{
+	width: 100%;
+    height: 1px;
+    background: #bfbfbf;
+    margin: 30px auto;
+}
+.content .Processing .name{
+	width: 100%;
+	height: 30px;
+}
+.content .Processing .name h3{
+	text-align: center;
+	font-family: Arial;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+.content > .Processing .row{
+	width: 500px;
+		margin: 0 auto;
+}
+.content .Processing .row table{
+	width: 100%;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.content .Processing .row table tr{
+	text-align: center;
+}
+.content .Processing .row table tr th{
+	font-family: Arial;
+	font-size: 18px;
+}
+.content .Processing .row table tr td{
+	color: red;
+	font-size: 14px;
+}
+.content .Processing .row p{
+	font-size: 14px;
+    font-family: Arial;
+    color: #111;
+}
+.rim .founder{
+	float: right;
+	width: 130px;
+	background-color: #ccc;
+}
+.rim .footer{
+	background-color: #ccc;
+	width: 100%;
+	height: 60px;
+}
+.rim  .footer .founder a{
+	text-decoration: none;
+	line-height: 60px;
+
+}
+.rim .founder a p{
+	margin: 0;
+}
+.rim .founder a p i{
+	float: right;
+	line-height: 60px;
+}

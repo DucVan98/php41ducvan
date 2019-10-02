@@ -1,0 +1,33 @@
+-cần phải load thư viện jquery
+-thực hiện cú pháp jquery
+-cú pháp jquery:
+$(document).ready(function(){ code javascript });
+-chú ý: buộc phải có dấu chấm phẩy ; khi kết thúc câu lệnh
+-jquery: tác động vào thẻ html thông qua thuộc tính id hoặc class
+	-tác động qua id: 
+		-$("#tenid").sukien();
+	-tác động qua class:
+		-$(.tenclass).sukien();
+-phải gọi hàm mới trả về kết quả được
+-$(#tenid/.class).val() -> lấy giá trị của thẻ html
+-$(#tenid/.class).html(giatri)->  xuất giá trị ra html
+-$(#tenid/.class).text(giatri)->  xuất giá trị ra là text
+-chú ý: 
+	- các thẻ form muốn xuất giá trị thì phải dùng $("#tenid/.tenclass").html(giatri);
+- $("#tenid/.tenclass").attr(name ,value) ->tác động vào thẻ html để xét giá trị;
+- $("#tenid/.tenclass").removeAttr(name) -> xóa thuộc tính thẻ HTML
+-hàm: 
+	-nhóm hàm: fadeIN, FADEoUT,FadaToggle
+		-fadeOut(function(){code}); -> ảnh mờ dần rồi mất đi;
+		-fadeOut(duration,function(){code}));-> ảnh mờ dần r mất đi sau duration giây;
+		-fadeOut(duration); -> anh mở dần theo duration giay;
+		-fadeIn -> ảnh hiển thị rõ dần , các tham số như fadeOut.
+		-fadeToggle: tổng hipwj của 2 cái trên
+	-nhóm lệnh hide,show,toggle;
+		-hide: ẩn thẻ html, các tham số gống fadeOut
+		-show: hiện thẻ html, các tham số giống fadeIn
+		-toggle: chứa của hide và show, các tham số giống fadeToggle
+-nhóm lệnh slideUp , slideDown, sildeToggle
+	-slideUp: kéo lên trên
+	-slideDown:xuống dưới
+	-sildeToggle: cả 2

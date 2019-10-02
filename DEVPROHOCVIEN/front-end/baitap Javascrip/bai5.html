@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai5</title>
+</head>
+	<style type="text/css">
+		#box{width: 400px;margin:0 auto;color: #fff;position: relative; height: 162px;}
+		#box h1{font-size: 20px;text-align: center;background-color: #dd4800;margin: 0;font-weight: bold;}
+		#box table{width: 400px;background-color:#f88dd7;
+			height: 140px;}
+			#box table tr{height: 25px;}
+	</style>
+	<script type="text/javascript">
+		function checkDodai() {
+			var a=document.getElementById("canha").value;
+			var b=document.getElementById("canhb").value;
+			var canhhuyen = Math.sqrt(a*a + b*b);
+			document.getElementById("canhhuyen").value= canhhuyen;
+		}
+	</script>
+<body>
+	<div id="box">
+		<h1>CHIỀU DÀI CẠNH HUYỀN TAM GIÁC VUÔNG</h1>
+		<table>
+			<tr>
+				<td>canh a</td>
+				<td><input type="number" id="canha" ></td>
+			</tr>
+			<tr>
+				<td>canh b</td>
+				<td><input type="number" id="canhb"></td>
+			</tr>
+			<tr>
+				<td>canh huyền</td>
+				<td><input type="text" id="canhhuyen"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="Tính" onclick="checkDodai();"style="position: absolute; left: 180px;bottom:0px;"></td>
+			</tr>
+
+		</table>
+	</div>
+			
+</body>
+</html>

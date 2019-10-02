@@ -1,0 +1,27 @@
+-location.href=url; -> di chuyển website đến 1 đường dẫn url
+- hàm setInterval( anynomouse function, dration)-> lặp đi lặp lại một hàm sau duration thời gian
+	- một số loại hàm: 
+		- hàm do ngôn ngữ định nghĩa
+		- hàm do người dùng định nghĩa
+		-Anynomouse function (cũng là hàm do người dùng đinh nghĩa): 
+	-duration tính bằng minigiay. 1giây = 1000 minigiay
+-setTimeuot(anynomouse function, duration)
+-> thực hiện một lần
+-clearInterval(id) -> huy ham interval
+-đối tượng date sử dụng để thao tác thời gian
+ //tạo đối tượng thời gian
+	-doituong= new Date();
+	- doituong.getFullYear();- > trả về năm
+	- doituong.getYear();->trả về 2 số cuối của năm;
+	- doituong.getMonth();-> trả về tháng;
+	- doituong.getDate();ngày
+	- doituong.getDay();6 ngya trong tuan từ 0-6
+	- doituong.getHours();giờ
+	- doituong.getMinutes();phút
+	- doituong.getSeconds(); giây
+-Array: mảng ctrong jas:
+	-gồm 2 thnahf phần:
+		-key: là chỉ số của array, chạy từ 0-n 
+		-value: giá trị tương ứng với phần tử thứ key
+	-tạo đối tượng array: doituong=  new Array();
+	-doituong.length -> trar ve so luong phan tu trong array

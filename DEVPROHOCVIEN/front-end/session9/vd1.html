@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd1</title>
+</head>
+<body>
+	<fieldset style="width: 300px; margin: auto;background: text-align: center;">
+		<legend>Dropdow</legend>
+		<!-- 
+			the select se co su kien onchange (khi thay doi cacs option trong the select ) thi co the  goi jas
+		 -->
+		 <script type="text/javascript">
+		 	function goUrl(){
+		 		var url = document.getElementById("drd").value;
+		 		if(url != ""){
+		 			location.href=url;
+		 		}
+		 	}
+		 </script>
+		<select id="drd" style="width: 100%;" onchange="goUrl();">
+			<option value=""></option>
+			<option value="http://dantri.com.vn">Trang dan tri</option>
+			<option value="http://vnexpress.net">Trang vneprest</option>
+			<option value="http://ngoisao.net">Trang ngoi sao</option>
+
+		</select>
+	</fieldset>
+</body>
+</html>

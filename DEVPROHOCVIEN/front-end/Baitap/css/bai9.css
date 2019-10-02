@@ -1,0 +1,35 @@
+.content{
+	width: 360px;
+	height: 100%;
+	font-family: Arial;
+	background-color: green;
+	margin: 0 auto;
+}
+.content ul{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	background-color: green;
+}
+.content ul li{
+	list-style: none;
+	width: 100%;
+}
+.content ul li img{
+	width: 100%;
+}
+.content ul li p{
+	margin: 10px;
+	margin-top: 0px;
+	font-weight: bold;
+
+}
+.content ul li p a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+		color: #fff;
+}
+.content ul li p a:hover{
+	color: #dddddd;
+}

@@ -1,0 +1,66 @@
+- Html
+	- The lien ket
+		<a href="duong dan">
+		thuoc tinh target="_blank" se mo ra mot tab moi luc lien ket
+	- The anh
+		<img src="duong dan anh">
+	- The fieldset
+		legend: tieu de cua khoi
+	- iframe: load website khac vao trang hien tai
+		<iframe src="duong dan website">
+	- sup: chu nho phia tren
+	- sub: chu nho phia duoi
+	- The danh sach
+		ul
+			li
+		ol
+			li
+	- table: tao bang
+		- thuoc tinh:
+			- cellpadding: khoang cach tu duong vien den dau chu
+			- cellspacing: do beo cua duong vien
+			- border: do rong cua duong vien
+		- tr: hang
+		- td: cot
+	- br: the ngat dong
+	- header
+	- footer
+	- aside
+	- article
+	- content
+	- nav
+	- The form:
+		- textbox
+		- radio
+		- button
+		- file
+		- checkbox
+		- email
+		- number
+		- color
+		- area
+		- date
+		- datetime
+		- select
+- Css
+	- text-align: can chinh text theo cac vi tri left center right
+	- height: docao
+	- line-height:docao
+	- Mau sac:
+		- Theo ten tieng anh
+		- Ma mau rgb
+			#000000: mau den
+			#ffffff: mau trang
+			#dddddd: mau ghi
+	- anh nen
+		- background-image:url('duong dan anh')
+		- mac dinh anh lap theo chieu ngang va thang dung
+		- background-repeat: repeat-x -> chi lap theo chieu ngang
+		- background-repeat: repeat-y -> chi lap theo chieu thang dung
+		- background-repeat: no-repeat -> khong lap
+		- background-size: rong cao -> set kich thuoc anh
+	- font-family: dinh dang font chu
+		- times news roman
+		- Arial
+		- Tahoma
+		- Verdana

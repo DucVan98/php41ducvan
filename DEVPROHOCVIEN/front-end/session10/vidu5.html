@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery</title>
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			$("#btn").click(function(){
+				var txt= $("#txt").val();
+				if(txt==""){
+					$("#txt").attr("style","border:1px solid red");
+				}else{
+					$("#txt").removeAttr("style");
+					$(".show").html(txt);
+				}
+			});
+		});
+	</script>
+	<fieldset style="width: 300px;margin: auto;">
+		<legend>check</legend>
+		<input type="text" id="txt">
+		<input type="button" id="btn" value="click">
+		<h1 class="show"></h1>
+	</fieldset>
+</body>
+</html>

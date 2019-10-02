@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery</title>
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// bắt sự kiện click của html có id=btn
+			$("#btn").click(function(){
+				// lấy giá trị của thẻ html có class= txt
+			var str =	$(".txt").val();
+				// tác động vào html có class=show -> xuất gia trị ra thẻ html
+				$(".show").html(str);
+			});
+		});
+	</script>
+	<fieldset style="width: 300px;margin: auto;">
+		<legend>jquery</legend>
+		<input type="text" class="txt">
+		<input type="button" id="btn" value="Click">
+	<h1 class="show"></h1>
+	</fieldset>
+</body>
+</html>
